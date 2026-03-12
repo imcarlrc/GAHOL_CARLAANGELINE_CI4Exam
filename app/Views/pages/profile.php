@@ -16,7 +16,7 @@
                 <div class="card-body text-center">
                     <img src="<?= base_url('assets/img/avatars/avatar.jpg'); ?>" alt="User Avatar" class="img-fluid rounded-circle mb-2" width="128" height="128" onerror="this.src='https://ui-avatars.com/api/?name=Admin+User&background=random&size=128'" />
                     
-                    <h5 class="card-title mb-0 mt-2">Jaypee Alsagon</h5>
+                    <h5 class="card-title mb-0 mt-2">Carla Gahol</h5>
                     <div class="text-muted mb-2">System Administrator</div>
                     
                     <div class="mt-3">

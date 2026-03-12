@@ -80,7 +80,7 @@
                                     </td>
                                     
                                     <td class="py-3">
-                                        <span class="badge bg-primary bg-opacity-10 text-primary border border-primary-subtle px-2 py-1">
+                                        <span class="badge bg-primary px-3 py-2">
                                             <?= esc($s['course']) ?>
                                         </span>
                                     </td>

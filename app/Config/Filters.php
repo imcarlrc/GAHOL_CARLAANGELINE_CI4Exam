@@ -74,9 +74,9 @@ class Filters extends BaseFilters
     public array $globals = [
         'before' => [
             // Requires login for everything EXCEPT these pages
-            'isLoggedIn' => ['except' => ['/', 'register', 'login']], 
-            // Allows the student pages to bypass the strict role permissions
-            'isGranted'  => ['except' => ['/', 'register', 'login', 'logout', 'blocked', 'about', 'contact', 'profile', 'students', 'student/*']],
+            'isLoggedIn' => ['except' => ['/', 'register', 'login']],
+            // FIXED: Added 'profile/*' to allow the edit and update routes!
+            'isGranted'  => ['except' => ['/', 'register', 'login', 'logout', 'blocked', 'about', 'contact', 'profile', 'profile/*', 'students', 'student/*']],
         ],
         'after' => [
             // ...
